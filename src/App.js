@@ -7,13 +7,13 @@ import SearchIcon from "./search.svg";
 
 const API_URL = "http://www.omdbapi.com?apikey=2c0d760f";
 
-const movie1 = {
-	Title: "Spiderman",
-	Year: "1990",
-	imdbID: "tt0100669",
-	Type: "movie",
-	Poster: "N/A",
-};
+// const movie1 = {
+// 	Title: "Spiderman",
+// 	Year: "1990",
+// 	imdbID: "tt0100669",
+// 	Type: "movie",
+// 	Poster: "N/A",
+// };
 
 const App = () => {
 	const [movies, setMovies] = useState([]);
